@@ -21,7 +21,6 @@ Batch size = 64
 
 Learning rate = 0.001
 
-
 Optimizer：Adam
 
 Loss function：torch.nn.CrossEntropyLoss()

@@ -9,14 +9,21 @@ EEG classification
  
 ## EEGNet.py 
 FirstConv -> DepthwiseConv -> SeparableConv -> Classification
+
 ELU alpha value = 0.15
+
 Dropout probability = 0.4
 
 ## main.py
 Num epochs = 150 
+
 Batch size = 64
+
 Learning rate = 0.001
 
+
 Optimizer：Adam
+
 Loss function：torch.nn.CrossEntropyLoss()
+
 Weight decay = 0.005

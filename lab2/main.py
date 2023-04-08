@@ -67,8 +67,8 @@ def plot_test_acc(test_acc_list, epochs):
     plt.title("Testing Accuracy")
     plt.xlabel('epoch number')
     plt.ylabel('accuracy (%)')
-    y_major_locator = MultipleLocator(2.5)       # 設定y軸間隔=2.5
-    ax = plt.gca()                               # 得到當前的axes
+    y_major_locator = MultipleLocator(2.5)        # 設定y軸間隔=2.5
+    ax = plt.gca()                                # 得到當前的axes
     ax.yaxis.set_major_locator(y_major_locator)
     plt.tick_params(left='on', bottom='on')
     plt.savefig("./lab2/Testing accuracy.png", dpi=600)
